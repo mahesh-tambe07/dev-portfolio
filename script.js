@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', () => {
   let stars = [];
 
 
-  // Resize canvas to full screen
+  //// Resize canvas to full screen
   function resizeCanvas() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;

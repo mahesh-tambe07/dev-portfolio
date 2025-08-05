@@ -4,7 +4,7 @@ $username = "root";
 $password = "";
 $database = "portfolio";
 
-// Create connection
+// ? Create connection
 $conn = new mysqli($host, $username, $password, $database);
 
 // Check connection
