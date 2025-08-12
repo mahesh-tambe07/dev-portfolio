@@ -22,6 +22,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
   resizeCanvas();
 
+  //
+
   // Create stars
   for (let i = 0; i < 300; i++) {
     const star = document.createElement('div');
