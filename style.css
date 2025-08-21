@@ -253,6 +253,79 @@ h2 {
 .contact-form textarea:focus { border-color: #00e5ff; }
 .contact-form textarea { resize: none; height: 100px; }
 
+/* Contact Form Styling */
+.contact-container {
+  padding: 40px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid #38bdf8;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+}
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #38bdf8;
+}
+
+/* Form Inputs */
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 2px solid #38bdf8;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* Placeholder style */
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgba(200, 200, 200, 0.7);
+}
+
+/* Focus effect */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #00e5ff;
+  box-shadow: 0 0 12px rgba(0, 229, 255, 0.7);
+}
+
+/* Textarea */
+.contact-form textarea {
+  resize: none;
+  height: 120px;
+}
+
+/* Button */
+.btn-contact {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #38bdf8;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-contact:hover {
+  background: #00aee0;
+  box-shadow: 0 0 15px rgba(0, 174, 224, 0.7);
+}
 /* Submit Button */
 .btn-contact {
   display: block;
